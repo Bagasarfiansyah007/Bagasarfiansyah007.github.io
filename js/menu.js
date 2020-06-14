@@ -8,3 +8,15 @@ $(document).ready(function(){
 		$('span').toggleClass('nyala4');
 	});
 });
+
+$(document).ready(function(){
+	$('img').click(function(){
+		$('.Lodiang').toggleClass('nyala5');
+		$('#side-nav').toggleClass('nyala6');
+		$('#side-nav').toggleClass('nyala7');
+		$('li').toggleClass('nyala8');
+		$('.text1').toggleClass('nyala9');
+		$('.img').toggleClass('nyala10');
+		$('#navbar').toggleClass('nyala11');
+	});
+});
