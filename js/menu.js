@@ -3,5 +3,8 @@ $(document).ready(function(){
 		$('#menu-mobile').toggleClass('nyala');
 		$('.brand').toggleClass('nyalabrand');
 		$('#side-nav').toggleClass('nyalaside');
+		$('span').toggleClass('nyala2');
+		$('span').toggleClass('nyala3');
+		$('span').toggleClass('nyala4');
 	});
 });
