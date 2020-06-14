@@ -360,7 +360,10 @@ nav {
 		top: 30%;
 		left: 3%;
 		z-index: 0;
-		
+	}
+
+	#menu-mobile hr {
+		width: 300px;
 	}
 
 	.section1 .text1 h1 {
