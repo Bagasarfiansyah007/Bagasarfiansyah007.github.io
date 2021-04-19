@@ -1,0 +1,208 @@
+
+#menu-nav {
+    overflow: hidden;
+    height: 105vh;
+    width: 100%;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1.5em;
+    padding-bottom: 5em;
+    background-image: url("image/png/bg1.png");
+    background-size: cover;
+    position: fixed;
+    background-position: center;
+    z-index: 1;
+}
+
+#menu-nav .menu-list {
+    height: 100%;
+    padding-top: 7em;
+}
+
+#menu-nav .menu-list h1{
+    padding-top: 0.7em;
+    font-family: "Montserrat";
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+}
+
+#menu-nav .menu-list p{
+    padding-top: 3em;
+    font-family: "Montserrat";
+    font-size: 16;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+#menu-nav .social-media {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15%;
+    padding-bottom: 25%;
+}
+
+#menu-nav .social-media ul{
+    list-style: none;
+    margin-right: -20%;
+}
+
+#menu-nav .social-media li{
+    margin-top: 50px;
+}
+
+section {
+    z-index: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+
+nav {
+    padding-bottom : 10em ; 
+}
+
+nav .text-center h1{
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1em;
+    line-height: 1.6;
+    position: fixed;
+    width: 1320px;
+}
+
+section .kolomfoto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+section .isikotak {
+    padding-top: 5em;
+}
+
+section .isikotak h1{
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 600;
+}
+
+section .isikotak h1:nth-child(1){
+    padding-bottom: 0.7em;
+    margin-left: -10px;
+}
+
+section .isikotak h1:nth-child(4){
+    padding-top:1em;
+    margin-left: -3px;
+}
+
+
+section .isikotak .kotak-bar {
+    background-color:#CFCFCF;
+    width: 5px;
+    height: 435px;
+}
+section .isikotak .kotak-bar-dalam {
+    background-color:black;
+    width: 5px;
+    height: 40px;
+    margin-top: -41px;
+}
+
+section .container .col-lg-6 .tempatfoto {
+    width: 497px;
+    margin-left: -10px;
+    height: 699px;
+    overflow: hidden;
+    background: #FCCF02;
+    border: 4px solid #000000;
+    
+}
+
+section .container .col-lg-6 .tempatfoto img{
+    width: 100%;
+    
+}
+
+section .container .col-lg-6 .tempatfoto .image1{
+    position: absolute;
+    width: 61px;
+    left: -5%;
+    top: 80%;
+}
+
+section .container .col-lg-6 .tempatfoto .image2{
+    position: absolute;
+    width: 132px;
+    left: -20%;
+    top: 10%;
+}
+
+section .container .col-lg-6 .tempatfoto .image3{
+    position: absolute;
+    width: 171px;
+    left: 90%;
+    top: 0%;
+}
+
+section .container .col-lg-6 .tempatfoto .image4{
+    position: absolute;
+    width: 90px;
+    left: 115%;
+    top: 30%;
+}
+
+section .container .col-lg-6 .tempatfoto .image5{
+    position: absolute;
+    width: 92px;
+    left: 90%;
+    top: 90%;
+}
+
+section .container .col-lg-6 .tempatfoto .image6{
+    position: absolute;
+    width: 92px;
+    left: 78%;
+    top: 30%;
+}
+
+section .container .content {
+    padding-top: 22em;
+    margin-left: -2%;
+}
+
+section .container .content h1{
+    font-weight: 600;
+    font-family: "Montserrat";
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+section .container .content p{
+    padding-top: 1em;
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 2em;
+}
+section .container .content button{
+    background-color: transparent;
+    font-family: "Montserrat";
+    color: black;
+    padding: 0px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.5em;
+    padding-top: 2em;
+    text-transform: uppercase;
+
+}
+
+
