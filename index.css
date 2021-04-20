@@ -12,7 +12,7 @@
     position: fixed;
     background-position: 30%;
     z-index: 1;
-    left: 87%;
+    left: 90%;
     transition: 2000ms ease;
 }
 
@@ -405,10 +405,89 @@ section .container .content button{
   }
 
 @media (max-width: 1024px){
+    #menu-nav .btn-menu .bar1.active2{
+        transform: rotate(-40deg);
+        transition: 700ms ease;
+        margin-top: 10em;
+        
+    }
+    
+    #menu-nav .btn-menu .bar2.active2{
+        transition: 700ms ease;
+        transform: rotate(40deg);
+    }
     #menu-nav {
-        display: none;
+        left: 0%;
+        background-size: cover;
+        top: 90%;
+        border: 1px solid black;
     }
 
+    #menu-nav.active {
+        top: 0%;
+        transition: 2000ms ease;
+    }
+
+    #menu-nav .col-lg-3 {
+        width: 100%;
+        height: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #menu-nav .col-lg-3 {
+        width: 100%;
+        
+    }
+
+    #menu-nav .col-lg-3 .button-menu{
+        border: 1px solid black;
+    }
+
+    #menu-nav .col-lg-3 .social-media{
+        display: flex;
+    }
+
+    #menu-nav .col-lg-3 .btn-menu{
+        margin: 0px;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        justify-content: center;
+        display: block;
+        align-items: center;
+        
+    }
+
+    #menu-nav .col-lg-3 .btn-menu .bar1{
+        width: 57px;
+        height: 4px;
+        left: 48%;
+        position: relative;
+
+    }
+
+    #menu-nav .col-lg-3 .btn-menu .bar2{
+        width: 57px;
+        height: 4px;
+        margin-top: 10px;
+        margin-left: 0px;
+        left: 48%;
+        position: relative;
+    }
+
+    #menu-nav .col-lg-6 {
+        width: 100%;
+        padding-top: 20em;
+    }
+
+    #menu-nav .col-lg-6 h1{
+        text-align: center;
+    }
+
+    #menu-nav .col-lg-6 p{
+        text-align: center;
+    }
+    
     section {
         padding: 5em;
     }
@@ -456,11 +535,27 @@ section .container .content button{
 
     section .content p{
         width: 80%;
+        text-align: center;
     }
+
+    section .content h1{
+        width: 80%;
+        text-align: center;
+    }
+
+    section .content button{
+        width: 80%;
+        text-align: center;
+    }
+    
 }
 
 @media (max-width: 768px){
    
+    section {
+        height: 100%;
+    }
+
     section .content {
         width: 100%;
         padding-left: 4em;  
@@ -469,18 +564,93 @@ section .container .content button{
     }
 
     section .content p{
-        width: 80%;
+        width: 90%;
+        text-align: center;
+    }
+
+    section .content h1{
+        width: 90%;
+        text-align: center;
+    }
+
+    #menu-nav .col-lg-3 .btn-menu{
+        margin: 5px;
+        padding: 5px;
+        margin-top: -10px;
+    }
+
+    #menu-nav .col-lg-3 .btn-menu .bar1{
+        
+        left: 35%;
+
+    }
+
+    #menu-nav .col-lg-3 .btn-menu .bar2{
+        
+        left: 35%;
     }
 }
-    
+
 
 @media (max-width: 414px){
     section {
         padding: 2em;
+        height: 140vh;padding-bottom: 60em;
     }
 
     nav .col-sm-12 {
        margin: 0px;
+    }
+
+    #menu-nav .menu-list h1{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    #menu-nav  {
+        padding: 2em;
+        
+    }
+
+    #menu-nav .menu-list p{
+        padding-top: 5em;
+        width: 100%;
+    }
+
+    #menu-nav .social-media{
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu-nav .social-media ul{
+        display: flex;
+        margin: 0px;
+        margin-left: -40px;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    #menu-nav .social-media ul li{
+        margin-left: 30px;
+    }
+
+    #menu-nav .menu-list{
+        padding-top: 10em;
+        padding-left: 0px;
+        padding-right: 0px ;
+    }
+
+    
+
+    #menu-nav .col-lg-3 .btn-menu .bar1{
+        
+        left: 40%;
+
+    }
+
+    #menu-nav .col-lg-3 .btn-menu .bar2{
+        
+        left: 40%;
     }
 
     nav .col-sm-12 h1{
@@ -491,6 +661,18 @@ section .container .content button{
     section .container .col-lg-6 .tempatfoto {
         height: 400px;
         padding: 0px;
+    }
+
+    #menu-nav .btn-menu .bar1.active2{
+        transform: rotate(-40deg);
+        transition: 700ms ease;
+        margin-top: 5em;
+        
+    }
+    
+    #menu-nav .btn-menu .bar2.active2{
+        transition: 700ms ease;
+        transform: rotate(40deg);
     }
 
     section .content {
