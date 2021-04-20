@@ -1,4 +1,5 @@
 
+
 #menu-nav {
     overflow: hidden;
     height: 105vh;
@@ -7,12 +8,12 @@
     padding-right: 5em;
     padding-top: 2em;
     padding-bottom: 5em;
-    background-image: url("https://user-images.githubusercontent.com/55185733/115378701-05bbf780-a1fb-11eb-9927-fe1f730aad9f.png");
+    background-image: url("image/png/bg1.png");
     background-size: cover;
     position: fixed;
     background-position: 30%;
     z-index: 1;
-    left: 90%;
+    left: 100%;
     transition: 2000ms ease;
 }
 
@@ -28,6 +29,7 @@
 #menu-nav .menu-list {
     height: 100%;
     padding-top: 7em;
+
 }
 
 #menu-nav .menu-list h1{
@@ -121,6 +123,7 @@
     justify-content: flex-end;
     padding-top: 15%;
     padding-bottom: 25%;
+
 }
 
 #menu-nav .social-media ul{
@@ -148,13 +151,48 @@
 
 #menu-nav .button-menu {
     padding-top: 30%;
-    padding-bottom: 30%;    
+    padding-bottom: 30%; 
 }
 
 #menu-nav .button-menu .btn-menu{
     display: flex;
-    margin-left: -30%;
+    position: relative;
     cursor: pointer;
+    display: none;
+}
+
+
+
+section .btn-menu2 {
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    right: 5%;
+    top: 40%;
+    cursor: pointer;
+    z-index: 10;
+    transition: 2s ease;
+}
+
+section .btn-menu2.active {
+    transition: 2s ease;
+    right: 90%;
+}
+
+section .btn-menu2 .bar1{
+    width: 4px;
+    height: 57px;
+    transition: 700ms ease;
+    background-color: black;
+    
+}
+
+section .btn-menu2 .bar2{
+    width: 4px;
+    height: 57px;
+    background-color: black;
+    margin-left: 10px;
+    transition: 700ms ease;
 }
 
 #menu-nav .btn-menu .bar1{
@@ -174,12 +212,40 @@
     
 }
 
+section .btn-menu2 .bar1.active2{
+    width: 4px;
+    height: 57px;
+    transform: rotate(40deg);
+    transition: 700ms ease;
+    background-color: black;
+    
+}
+
+section .btn-menu2 .bar2.active2{
+    width: 4px;
+    height: 57px;
+    transition: 700ms ease;
+    transform: rotate(-40deg);
+    margin-left: -2.5px;
+    background-color: black;
+    
+}
+
 #menu-nav .btn-menu .bar2.active2{
     width: 4px;
     height: 57px;
     transition: 700ms ease;
     transform: rotate(-40deg);
     margin-left: -2.5px;
+    background-color: black;
+    
+}
+
+section .btn-menu2 .bar1.active{
+    width: 4px;
+    height: 57px;
+    margin-top: 10px;
+    transition: 700ms ease;
     background-color: black;
     
 }
@@ -198,6 +264,15 @@
     height: 57px;
     background-color: black;
     margin-left: 10px;
+    transition: 700ms ease;
+}
+
+section .btn-menu2 .bar2.active{
+    width: 4px;
+    height: 57px;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: -10px;
     transition: 700ms ease;
 }
 
@@ -409,12 +484,13 @@ section .container .content button{
         transform: rotate(-40deg);
         transition: 700ms ease;
         margin-top: 10em;
-        
     }
     
     #menu-nav .btn-menu .bar2.active2{
         transition: 700ms ease;
-        transform: rotate(40deg);
+        transform: rotate(40deg);   
+        
+     
     }
     #menu-nav {
         left: 0%;
@@ -444,8 +520,25 @@ section .container .content button{
         border: 1px solid black;
     }
 
-    #menu-nav .col-lg-3 .social-media{
+    #menu-nav .social-media{
         display: flex;
+        justify-content: center;
+    }
+
+    #menu-nav .social-media ul{
+        display: flex;
+        margin: 0px;
+        margin-left: -40px;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    #menu-nav .social-media ul li{
+        margin-left: 30px;
+    }
+
+    section .btn-menu2{
+        display: none;
     }
 
     #menu-nav .col-lg-3 .btn-menu{
@@ -573,6 +666,16 @@ section .container .content button{
         text-align: center;
     }
 
+
+
+    #menu-nav .menu-list  {
+        padding-top: 19em;
+    }
+
+    #menu-nav .menu-list h1 {
+        font-size: 40px;
+    }
+
     #menu-nav .col-lg-3 .btn-menu{
         margin: 5px;
         padding: 5px;
@@ -581,13 +684,13 @@ section .container .content button{
 
     #menu-nav .col-lg-3 .btn-menu .bar1{
         
-        left: 35%;
+        left: 45%;
 
     }
 
     #menu-nav .col-lg-3 .btn-menu .bar2{
         
-        left: 35%;
+        left: 45%;
     }
 }
 
@@ -602,6 +705,8 @@ section .container .content button{
        margin: 0px;
     }
 
+    
+
     #menu-nav .menu-list h1{
         font-size: 30px;
         width: 100%;
@@ -609,11 +714,10 @@ section .container .content button{
 
     #menu-nav  {
         padding: 2em;
-        
     }
 
     #menu-nav .menu-list p{
-        padding-top: 5em;
+        padding-top: 3em;
         width: 100%;
     }
 
