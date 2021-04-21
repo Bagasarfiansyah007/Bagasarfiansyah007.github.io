@@ -9,6 +9,11 @@
     transition: 2s ease;
 }
 
+.side-nav-baru.active {
+    left: 0%;
+    transition: 2s ease;
+}
+
 .side-nav-baru .btn-menu {
     display: flex;
     justify-content: center;
