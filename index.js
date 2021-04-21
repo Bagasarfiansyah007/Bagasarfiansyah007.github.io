@@ -9,6 +9,7 @@ function delay(n) {
 
 function pageTransition() {
     var tl = gsap.timeline();
+    var t2 = gsap.timeline();
     tl.to(".loading-screen", {
         duration: 1.2,
         width: "100%",
@@ -23,7 +24,22 @@ function pageTransition() {
         ease: "Expo.easeInOut",
         delay: 0.3,
     });
+    t2.to(".loading-screen h1", {
+        duration: 1.2,
+        width: "100%",
+        left: "0%",
+        ease: "Expo.easeInOut",
+    });
+
+    t2.to(".loading-screen h1", {
+        duration: 1,
+        width: "100%",
+        left: "100%",
+        ease: "Expo.easeInOut",
+        delay: 0.3,
+    });
     tl.set(".loading-screen", { left: "-100%" });
+    t2.set(".loading-screen h1", { left: "-100%" });
 }
 
 function contentAnimation() {
