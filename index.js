@@ -67,7 +67,7 @@ $(document).ready(function(){
         $('img').toggleClass('active');
         $(".bar1").toggleClass("active2");
         $(".bar2").toggleClass("active2");
-        $(".side-nav-baru").toggleClass("active");
+    
 	});
 });
 
