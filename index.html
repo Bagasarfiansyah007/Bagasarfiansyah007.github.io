@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="about.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    
+    <body data-barba="wrapper">
+    <section class="side-nav-baru">
+           
+    </section>
+
+    <section id="menu-nav">
+        <div class="container animate__animated animate__fadeInRight">
+            <div class="row">
+                <div class="col-lg-3 button-menu" onclick="menukeluar()">
+                    <div  class="btn-menu">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 menu-list">
+                    <a href="index.html"><h1>Home</h1></a>
+                    <a href="About.html"><h1>About</h1></a>
+                    <a href=""><h1>Portofolio</h1></a>
+                    <a href=""><h1>Contact</h1></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-lg-3 social-media">
+                    <ul>
+                        <li><img src="image/svg/Vector.svg" width="30px"></li>
+                        <li><img src="image/svg/Vector-2.svg" width="30px"></li>
+                        <li><img src="image/svg/Vector-3.svg" width="30px"></li>
+                        <li><img src="image/svg/Vector-1.svg" width="30px"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="load-container">
+        <div class="loading-screen"></div>
+    </div>
+
+    <main data-barba="container" data-barba-namespace="home">
+        
+        <section class="section2">
+            <nav>
+                <div class="container">
+                    <div class="row">
+                        <div style="z-index: 2;" class="col-sm-12 text-center ">
+                            <h1 class="animate__animated animate__fadeInUp">BAGAS ARFIANSYAH</h1>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    
+            <div class="container">
+                <div class=" row">
+                    <div class="col-lg-3 isikotak animate__animated animate__fadeInLeft">
+                        <h1>4</h1>
+                        <div class="kotak-bar"></div>
+                        <div class="kotak-bar-dalam"></div>
+                        <h1>1</h1>
+                    </div>
+                    <div class="col-lg-6 kolomfoto">
+                        <div class="tempatfoto">
+                            <img class="fotoprofil animate__animated animate__fadeInUp" src="https://user-images.githubusercontent.com/55185733/115378515-d3aa9580-a1fa-11eb-9ef8-2d18212f797b.png" width="400px" >
+                            <img class="image1 animate__animated animate__fadeInRight" src="https://user-images.githubusercontent.com/55185733/115379387-af02ed80-a1fb-11eb-9007-ad8625b694ef.png">
+                            <img class="image2 animate__animated animate__fadeInRight" src="https://user-images.githubusercontent.com/55185733/115379474-c215bd80-a1fb-11eb-9695-35e70493341b.png">
+                            <img  class="image3 animate__animated animate__fadeInLeft" src="https://user-images.githubusercontent.com/55185733/115379968-4405e680-a1fc-11eb-8db2-eee7178149c6.png">
+                            <img  class="image4 animate__animated animate__fadeInLeft" src="https://user-images.githubusercontent.com/55185733/115379303-98f52d00-a1fb-11eb-9ff5-b1bd05fc347b.png">
+                            <img  class="image5 animate__animated animate__fadeInLeft" src="https://user-images.githubusercontent.com/55185733/115379584-dce83200-a1fb-11eb-9cb4-7457e309ce74.png">
+                            <img  class="image6 animate__animated animate__fadeInLeft" src="https://user-images.githubusercontent.com/55185733/115379649-ed001180-a1fb-11eb-891d-6ef2c58bd8f8.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 content animate__animated animate__fadeInLeft">
+                        
+                        <h1>Introduce</h1>
+                        <p>
+                            I am an software engineering student.I am experience to graphic design,
+                            ui design,and develope website.I also take parttimer at a digital
+                            startup company
+                        </p>
+                        <button class="btn-primary">
+                            detail
+                            <span style="padding-left:20px"><img src="https://user-images.githubusercontent.com/55185733/115379856-25075480-a1fc-11eb-912a-a60e3c9a3076.png" ></span>
+                        </button>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div  class="btn-menu2">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+            </div>
+        </section>
+    </main>
+
+    
+    <!-- unpkg -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <!-- jsdelivr -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

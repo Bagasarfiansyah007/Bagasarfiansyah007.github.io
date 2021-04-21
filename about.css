@@ -1,0 +1,236 @@
+.side-nav-baru {
+    background-color: white;
+    width: 7em;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    left: 95%;
+    z-index: 1;
+    transition: 2s ease;
+}
+
+.side-nav-baru.active {
+    left: 0%;
+    transition: 2s ease;
+}
+
+.side-nav-baru .btn-menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45%;
+    cursor: pointer;
+}
+
+.side-nav-baru .btn-menu .bar1 {
+    width: 4px;
+    height: 57px;
+    transition: 700ms ease;
+    background-color: black;
+}
+
+.side-nav-baru .btn-menu .bar2 {
+    width: 4px;
+    height: 57px;
+    margin-left: 10px;
+    transition: 700ms ease;
+    background-color: black;
+}
+
+.content2 {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+.content2 .col-lg-6 {
+    padding: 5em;
+}
+
+.content2 .about {
+    overflow: hidden;
+    width: 55%;
+    padding-left: 12em;
+    padding-top: 10em;
+
+}
+
+.content2 .about h1 {
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 0.3em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.content2 .about h4 {
+    font-family: "Montserrat";
+    padding-bottom: 1em;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+
+.content2 .about .isi {
+    display: flex;
+    z-index: 10;
+}
+
+.content2 .about .Contact {
+    z-index: 10;
+    border: 1px solid black;
+}
+
+.content2 .about .isi h3 {
+    font-family: "Montserrat";
+    font-size: 16px;
+    padding : 1em;
+    font-weight: 600;
+    background-color: #FCCF02;
+    width: 150px;
+    text-align: center;
+    
+}
+
+.content2 .about .isi .col1 p{
+    width: 100%;
+}
+
+.content2 .about p {
+    font-family: "Montserrat";
+    padding-top: 2em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.5em;
+    width: 100%;
+    padding-bottom: 3em;
+}
+
+.content2 .about ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0em;
+}
+
+.content2 .about ul li{
+    padding: 1em;
+    padding-right: 3em;
+    padding-left: 3em;
+    margin-left: 10px;
+    background-color: #FCCF02;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content2 .about ul li:nth-child(1){
+    margin-left: 0px;
+}
+
+.content2 .about .image1{
+    position: absolute;
+    width: 61px;
+    left: 5%;
+    top: 65%;
+}
+
+.content2 .about .image2{
+    position: absolute;
+    width: 150px;
+    left: 2%;
+    top: 20%;
+}
+
+.content2 .about .image3{
+    position: absolute;
+    width: 352px;
+    left: -10%;
+    top: 80%;
+    z-index: 0;
+}
+
+.content2 .about .image4{
+    position: absolute;
+    width: 61px;
+    left: 50%;
+    top: 60%;
+}
+
+.content2 .about .image5{
+    position: absolute;
+    width: 120px;
+    left: 70%;
+    top: 60%;
+    z-index: 5;
+}
+
+.content2 .foto {
+    background-color: #FCCF02;
+    overflow: hidden;
+    height: 100vh;
+    width: 45%;
+    position: fixed;
+    left: 55%;
+    
+}
+
+.content2 .foto img{
+    width: 600px;
+}
+
+.content2 .foto2 {
+    background-color: #FCCF02;
+    overflow: hidden;
+    height: 100vh;
+    width: 45%;
+    display: none;
+    
+}
+
+.content2 .foto2 img{
+    width: 600px;
+}
+
+
+@media (max-width : 1024px) {
+    .content2 .about {
+        width: 100%;
+        height: 100%;
+        padding-top: 5em;
+        
+    }
+
+    .content2 .about p {
+        padding-bottom: 5em;
+    }
+
+    .content2 .foto2 {
+        width: 100%; 
+        display: block;
+        height: 500px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .content2 .foto2 img{
+        width: 100%;
+        padding: 10em;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: -15em;
+        border: 1px solid black;
+    }
+
+    .content2 .foto {
+        display: none;
+    }
+
+    .side-nav-baru {
+        display: none;
+    }
+
+}
