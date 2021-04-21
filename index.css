@@ -39,6 +39,10 @@
     pointer-events: none;
 }
 
+.loading-screen h1{
+    opacity : 0;
+}
+
 #menu-nav .container {
     animation-delay: 2s;
 }
