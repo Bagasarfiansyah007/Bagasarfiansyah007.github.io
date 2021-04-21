@@ -505,6 +505,7 @@ section .container .content button{
         background-size: cover;
         top: 89%;
         border-top: 1px solid black;
+        z-index: 10;
     }
 
     section .btn-menu .bar1.active{
