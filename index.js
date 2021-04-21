@@ -25,6 +25,7 @@ function pageTransition() {
     });
     
     tl.set(".loading-screen", { left: "-100%" });
+    tl.set(".loading-screen h1", {opacity : "1"});
 }
 
 function contentAnimation() {
