@@ -72,6 +72,12 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+	$('a').click(function(){
+		$('#menu-nav').toggleClass('active');
+	});
+});
+
+$(document).ready(function(){
     $(".btn-menu").hover(function(){
         $(".bar1").toggleClass("active");
         $(".bar2").toggleClass("active");
