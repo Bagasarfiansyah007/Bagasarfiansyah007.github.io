@@ -28,6 +28,11 @@
     position: relative;
 }
 
+.loading-screen h1{ 
+    opacity: 0;
+}    
+
+
 .load-container {
     position: fixed;
     top: 0;
@@ -37,10 +42,6 @@
     overflow: hidden;
     z-index: 20;
     pointer-events: none;
-}
-
-.loading-screen h1{
-    opacity : 0;
 }
 
 #menu-nav .container {
@@ -498,23 +499,28 @@ section .container .content button{
   }
 
 @media (max-width: 1024px){
-    #menu-nav .btn-menu .bar1.active2{
-        transform: rotate(-40deg);
-        transition: 700ms ease;
-        margin-top: 10em;
-    }
     
-    #menu-nav .btn-menu .bar2.active2{
-        transition: 700ms ease;
-        transform: rotate(40deg);   
-        
-     
-    }
     #menu-nav {
         left: 0%;
         background-size: cover;
-        top: 90%;
-        border: 1px solid black;
+        top: 89%;
+        border-top: 1px solid black;
+    }
+
+    section .btn-menu .bar1.active{
+        width: 4px;
+        height: 57px;
+        transition: 700ms ease;
+        background-color: black;
+        
+    }
+    
+    section .btn-menu .bar1.active{
+        width: 4px;
+        height: 57px;
+        transition: 700ms ease;
+        background-color: black;
+        
     }
 
     #menu-nav.active {
@@ -588,7 +594,7 @@ section .container .content button{
 
     #menu-nav .col-lg-6 {
         width: 100%;
-        padding-top: 20em;
+        padding-top: 15em;
     }
 
     #menu-nav .col-lg-6 h1{
@@ -687,7 +693,7 @@ section .container .content button{
 
 
     #menu-nav .menu-list  {
-        padding-top: 19em;
+        padding-top: 13em;
     }
 
     #menu-nav .menu-list h1 {
@@ -757,7 +763,7 @@ section .container .content button{
     }
 
     #menu-nav .menu-list{
-        padding-top: 10em;
+        padding-top: 6em;
         padding-left: 0px;
         padding-right: 0px ;
     }
