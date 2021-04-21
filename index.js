@@ -67,12 +67,19 @@ $(document).ready(function(){
         $('img').toggleClass('active');
         $(".bar1").toggleClass("active2");
         $(".bar2").toggleClass("active2");
+        $(".side-nav-baru").toggleClass("active");
 	});
 });
 
 $(document).ready(function(){
-	$('a').click(function(){
+	$('#menu-nav .menu-list a').click(function(){
 		$('#menu-nav').toggleClass('active');
+        $('h1').toggleClass('active');
+        $('p').toggleClass('active');
+        $('img').toggleClass('active');
+        $(".bar1").toggleClass("active2");
+        $(".bar2").toggleClass("active2");
+        $(".side-nav-baru").toggleClass("active");
 	});
 });
 
