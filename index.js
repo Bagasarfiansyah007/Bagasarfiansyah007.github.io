@@ -23,9 +23,7 @@ function pageTransition() {
         ease: "Expo.easeInOut",
         delay: 0.3,
     });
-    
     tl.set(".loading-screen", { left: "-100%" });
-    tl.set(".loading-screen h1", {opacity : "1"});
 }
 
 function contentAnimation() {
@@ -83,12 +81,7 @@ $(document).ready(function(){
 	});
 });
 
-$(document).ready(function(){
-    $(".btn-menu").hover(function(){
-        $(".bar1").toggleClass("active");
-        $(".bar2").toggleClass("active");
-    });
-});
+
 
 
 
