@@ -226,7 +226,64 @@
     }
 
     .side-nav-baru {
-        display: none;
+        width: 100%;
+        left: 0%;
+        top: 90%;
+        height: 10%;
+        justify-content: center;
+        display: flex;
+        align-items: flex-start;
+        overflow: visible;
+    }
+
+    
+
+    .side-nav-baru .btn-menu {
+        padding: 0;
+        margin: 0;
+        left: 0;
+        right: 0;
+        flex-wrap: wrap;
+        width: 4.5em;
+        align-items: center;
+        height: 1em;
+    }
+
+    .side-nav-baru .btn-menu .bar1{
+        width: 57px;
+        height: 4px;
+        left: 0%;
+        right: 0;
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+    .side-nav-baru .btn-menu .bar2{
+        width: 57px;
+        height: 4px;
+        left: 0%;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        margin-top: 0.5em;
+    }
+
+    .side-nav-baru .btn-menu .bar1.active2{
+        transform: rotate(40deg);
+        transition: 700ms ease;
+        background-color: black;
+        margin-top: -100px;
+    }
+    
+    .side-nav-baru .btn-menu .bar2.active2{
+        transition: 700ms ease;
+        transform: rotate(-40deg);  
+        margin: 0px;
+        margin-left: -3px;
+        margin-top: -99px; 
+
     }
 
 }
